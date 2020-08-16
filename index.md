@@ -2,26 +2,27 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+I am a second-year Phd scholar, looking to specialise in speech sciences. I work with articulatory and acoustic linguistics and am currently working as a Graduate Research Assistant with the [Douglas Phonetics Lab](https://linguistics.arizona.edu/dpl), and with the [Artificial Social Intelligence for Successful Teams](https://ischool.arizona.edu/news/new-asisttomcat-grant) (ASIST) programme.  
 
-[Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+I have worked as a phonetics researcher, a full-time teacher and creator of educational content. I am interested in speech technology, experimental linguistics and ASR. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+[University website](https://linguistics.arizona.edu/user/meghavarshini-krishnaswamy).
 
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# Work Experience
 
-## Header 2
 
+
+# Publication
+<!---
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+-->
+# Education
 
-### Header 3
-
+<!---
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
@@ -29,3 +30,4 @@ var fun = function lang(l) {
   return true;
 }
 ```
+-->
