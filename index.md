@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a second-year Phd scholar, looking to specialise in speech sciences. I work with articulatory and acoustic linguistics and am currently working as a Graduate Research Assistant with the [Douglas Phonetics Lab](https://linguistics.arizona.edu/dpl), and with the [Artificial Social Intelligence for Successful Teams](https://ischool.arizona.edu/news/new-asisttomcat-grant) (ASIST) programme.  
+I am a second-year Phd scholar, looking to specialise in speech sciences. I work with articulatory and acoustic linguistics and am currently working as a Graduate Research Assistant with the [Douglas Phonetics Lab](https://linguistics.arizona.edu/dpl).
 
 
 I have worked as a phonetics researcher, a full-time teacher and creator of educational content. I am interested in speech technology, experimental linguistics and ASR. 
