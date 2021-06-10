@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
-Hey there! I am [Megh Krishnaswamy](https://linguistics.arizona.edu/user/meghavarshini-krishnaswamy) (she/her), currently working on my PhD in linguistics from the University of Arizona. I am a phonetician, and also have a Masters degree in Human Language Technology. I have research experience in the areas of ASR, articulatory and  acoustic phonetics, and speech perception. My main research focii are the preservation of phonemic contrast in languages with large phonemic inventories and modelling phonemic accomodation and entrainment. I especially love working with consonantal contrasts in South Asian languages.
+<!-- Might want to change "PhD Scholar".
+"Hi there!" is transitioning too fast to technical things: "funnel" shape writing: go from broad and easy to understand, to technical things. The tech people will read past the easy stuff an get to the right content. One para for funneling.
+Add things parenthetically: this gives wholistic look at your work. No need for masters stuff
+-->
+Hey there! I am [Megh Krishnaswamy](https://linguistics.arizona.edu/user/meghavarshini-krishnaswamy) (she/her), currently working on a PhD in linguistics from the University of Arizona. As a phonetician, I work on the human speech system. Some of the projects I've worked on investigate the acquisition of speech sounds among L2 speakers, the role pitch perception in the identification of sounds, and the acoustics of sounds that require complex tongue gestures. I have also worked on the sound systems of Indic languages like Malayalam, Bangla, Hindi, and Assamese. I love internet linguistcs, Englishes of the world, and composing short, fun language questionaires for my friends on social media.
 
-I am currently employed as a Graduate Research Assistant in the [ASIST-TomCAT project](https://ischool.arizona.edu/news/new-asisttomcat-grant). I am part of a speech and NLP team that works on building efficient speech processing pipelines to power an intelligent AI agents, capable of providing assistance in cooperative tasks. 
+My current research focus is on the analysis of phonemic contrast in languages with large phonemic inventories, especially among stops, to understand how languages systems maintain, store and access tight phonemic contrasts. I also look at the role of secondary acoustic cues and phenomena like neighbourhood density, in these processes.
 
-I have also worked as a Research Assistant in the [Douglas Phonetics Lab](https://linguistics.arizona.edu/dpl), University of Arizona; and in the [Splang Lab](https://duttalab.github.io), The English and Foreign Languages University (Hyderabad), where I asisted in running experiments, creating auditory stimuli for forced choice and eye-tracking experiments, designing speech production experiments, and data analysis and modelling.
+<!-- describe research focii more easily and why it is interesting and important. What are the applications and broader questions. "this is just who i am" language, casual. "during my masters I did this. . . "
+I have research experience in the areas of ASR, articulatory and  acoustic phonetics, and speech perception. -->
+I am currently employed as a Graduate Research Assistant in the [ASIST-ToMCAT project's](https://ischool.arizona.edu/news/new-asisttomcat-grant) Speech and NLP team. I have also worked as a Research Assistant in the [Douglas Phonetics Lab](https://linguistics.arizona.edu/dpl), University of Arizona; and in the [Splang Lab](https://duttalab.github.io), The English and Foreign Languages University (Hyderabad), where I asisted in running experiments, creating auditory stimuli for forced choice and eye-tracking experiments, designing speech production experiments, and with data analysis and modelling.
 
 I am a [Teach for India](https://www.teachforindia.org) aluminus, and have served low-income communities in Old City, Hyderabad as a full-time primary and middle school teacher. I am committed to making education accessible in the medium suited to the community, and language instruction that sees children as language scientists. With this aim, I have also worked on making educational content in Hindi more student-friendly and jargon-free during my internship at Karadi Path Education company. I also have experience facilitating school enrollments and with door-to-door information dissemination on childrens' right to free education in India.  
 
@@ -18,7 +24,7 @@ I am a [Teach for India](https://www.teachforindia.org) aluminus, and have serve
 -->
 1. Culnan, J., Park, S., Krishnaswamy, M., & Sharp, R. (2021, April). Me, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection. In *Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis* (pp. 250-256).
 2. Krishnaswamy, M., Dutta, I., & Bhaumik, M. (2020). Alveolar stops exhibit greater coarticulatory resistance than retroflexes and dentals in Malayalam. *The Journal of the Acoustical Society of America*, 148(4), 2582-2582.
-3. Dutta, I., Redmon, C., Krishnaswamy, M., Chandran, S., & Raj, N. (2019). Articulatory complexity and lexical contrast density in models of coronal coarticulation in Malayalam. In *Proceedings of the 19th International Congress of Phonetic Sciences*.
+3. Dutta, I., Redmon, C., Krishnaswamy, M., Chandran, S., & Raj, N. (2019). [Articulatory complexity and lexical contrast density in models of coronal coarticulation in Malayalam](https://www.chredmon.com/documents/2019_dutta-et-al_articulatory-complexity-lexical-contrast-density-malayalam.pdf). In *Proceedings of the 19th International Congress of Phonetic Sciences*.
 4. Krishnaswamy, M., Dutta, I., & Banerjee, U. (2018, May). Active cavity expansion through lingual adjustments to place of constriction in voiced geminates. In *Proceedings of Meetings on Acoustics 175ASA* (Vol. 33, No. 1, p. 060002). Acoustical Society of America.
 5. Banerjee, U., Dutta, I., & Krishnaswamy, M. (2018). Evidence for active cavity expansion through advanced lingual place of constriction in voiced geminates. The *Journal of the Acoustical Society of America*, 143(3), 1754-1754.
 
@@ -48,7 +54,15 @@ I am a [Teach for India](https://www.teachforindia.org) aluminus, and have serve
 
 # Education
 1. PhD, Linguistics [Ongoing]: University of Arizona
-Areas of interest: Speech perception and production, phonology, computational linguistics <br> Employment:
+ 
+	**Areas of interest:** 
+	- Speech perception 
+	- Speech production
+	- phonology
+	- computational linguistics
+	
+	**Employment:**
+	
 	- Graduate Research Assistant, ASIST-ToMCAT [Summer 2020 - present]
 	- Graduate Research Assistant, Douglass Phonetics Lab [Spring 2020, Fall, 2020]
 	- Graduate Teaching Assistant, LING-150 [Fall 2019]
@@ -61,13 +75,3 @@ Areas of interest: Speech perception and production, phonology, computational li
 1. Teach for India fellowship [2015-2017]
 2. Volunteer, [Swechha](https://swechha.in) [2012-2013]
 3. Research intern, Karadi Path Education company [Summer 2014]
-
-<!---
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
--->
