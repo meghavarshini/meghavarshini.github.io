@@ -5,9 +5,10 @@ layout: default
 "Hi there!" is transitioning too fast to technical things: "funnel" shape writing: go from broad and easy to understand, to technical things. The tech people will read past the easy stuff an get to the right content. One para for funneling.
 Add things parenthetically: this gives wholistic look at your work. No need for masters stuff
 -->
-Hey there! I am [Megh Krishnaswamy](https://linguistics.arizona.edu/user/meghavarshini-krishnaswamy) (she/her), currently working on a PhD in linguistics from the University of Arizona. As a phonetician, I work on the human speech system. Some of the projects I've worked on investigate the acquisition of speech sounds among L2 speakers, the role pitch perception in the identification of sounds, and the acoustics of sounds that require complex tongue gestures. I have also worked on the sound systems of Indic languages like Malayalam, Bangla, Hindi, and Assamese. I enjoy learning about internet linguistcs, encountering Englishes of the world; and composing short, fun language questionaires for my friends on social media.
+Hey there! I am [Megh Krishnaswamy](https://linguistics.arizona.edu/user/meghavarshini-krishnaswamy) (she/her), currently working on a PhD in linguistics from the University of Arizona. As a phonetician, I work on the human speech system. Some of the projects I've worked on investigate the speech acquisition of L2 speakers, the role of pitch perception in the identification of sounds, and the acoustics of complex tongue gestures. I have also worked on the sound systems of Indic languages like Malayalam, Bangla, Hindi, and Assamese. I enjoy learning about internet linguistcs, encountering Englishes of the world; and composing short, fun language questionaires for my friends on social media.
 
-My current research focus is on the analysis of phonemic contrast in languages with large phonemic inventories, especially among stops, to understand how languages systems maintain, store and access tight phonemic contrasts. I also look at the role of secondary acoustic cues and phenomena like neighbourhood density, in these processes.
+I have two current research focii. The first is the analysis of phonemic contrast in languages with large phonemic inventories, especially among stops, to understand how languages systems maintain, store and access tight phonemic contrasts. I also look at the role of secondary acoustic cues and phenomena like neighbourhood density, in these processes. The second is the modelling of speech entrainment and phonetic accomodation, to find a relationship between convergence in speech patterns and cooperative relationships among speakers.
+
 
 <!-- describe research focii more easily and why it is interesting and important. What are the applications and broader questions. "this is just who i am" language, casual. "during my masters I did this. . . "
 I have research experience in the areas of ASR, articulatory and  acoustic phonetics, and speech perception. -->
@@ -58,8 +59,8 @@ I am a [Teach for India](https://www.teachforindia.org) aluminus, and have serve
 	**Areas of interest:** 
 	- Speech perception 
 	- Speech production
-	- phonology
-	- computational linguistics
+	- Phonology
+	- Computational linguistics
 	
 	**Employment:**
 	
@@ -68,7 +69,17 @@ I am a [Teach for India](https://www.teachforindia.org) aluminus, and have serve
 	- Graduate Teaching Assistant, LING-150 [Fall 2019]
 	
 2. MS Human Language Technology [2021]: University of Arizona
+
+	**Areas of interest:**
+	- Speech Technology
+	- Corpus Linguistics
+	- Natural Language Processing
 3. MA Linguistics [2015]: The English and Foreign Languages University, Hyderabad
+
+	**Areas of interest:** 
+	- Psycholinguistics
+	- Experimental methods
+	- Acoustic phonetivs
 4. BA English (Hons.) [2013]: Delhi University
 
 # Pedagogy and Advocacy
