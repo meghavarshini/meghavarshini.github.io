@@ -23,11 +23,11 @@ I am a [Teach for India](https://www.teachforindia.org) aluminus, and have serve
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 -->
-1. Culnan, J., Park, S., Krishnaswamy, M., & Sharp, R. (2021, April). Me, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection. In *Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis* (pp. 250-256).
-2. Krishnaswamy, M., Dutta, I., & Bhaumik, M. (2020). Alveolar stops exhibit greater coarticulatory resistance than retroflexes and dentals in Malayalam. *The Journal of the Acoustical Society of America*, 148(4), 2582-2582.
+1. Culnan, J., Park, S., Krishnaswamy, M., & Sharp, R. (2021, April). [Me, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection](https://aclanthology.org/2021.wassa-1.26.pdf). In *Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis* (pp. 250-256).
+2. Krishnaswamy, M., Dutta, I., & Bhaumik, M. (2020). [Alveolar stops exhibit greater coarticulatory resistance than retroflexes and dentals in Malayalam](https://www.chredmon.com/documents/2019_dutta-et-al_articulatory-complexity-lexical-contrast-density-malayalam.pdf). *The Journal of the Acoustical Society of America*, 148(4), 2582-2582.
 3. Dutta, I., Redmon, C., Krishnaswamy, M., Chandran, S., & Raj, N. (2019). [Articulatory complexity and lexical contrast density in models of coronal coarticulation in Malayalam](https://www.chredmon.com/documents/2019_dutta-et-al_articulatory-complexity-lexical-contrast-density-malayalam.pdf). In *Proceedings of the 19th International Congress of Phonetic Sciences*.
-4. Krishnaswamy, M., Dutta, I., & Banerjee, U. (2018, May). Active cavity expansion through lingual adjustments to place of constriction in voiced geminates. In *Proceedings of Meetings on Acoustics 175ASA* (Vol. 33, No. 1, p. 060002). Acoustical Society of America.
-5. Banerjee, U., Dutta, I., & Krishnaswamy, M. (2018). Evidence for active cavity expansion through advanced lingual place of constriction in voiced geminates. The *Journal of the Acoustical Society of America*, 143(3), 1754-1754.
+4. Krishnaswamy, M., Dutta, I., & Banerjee, U. (2018, May). [Active cavity expansion through lingual adjustments to place of constriction in voiced geminates](https://asa.scitation.org/doi/pdf/10.1121/2.0001024). In *Proceedings of Meetings on Acoustics 175ASA* (Vol. 33, No. 1, p. 060002). Acoustical Society of America.
+5. Banerjee, U., Dutta, I., & Krishnaswamy, M. (2018). [Evidence for active cavity expansion through advanced lingual place of constriction in voiced geminates](https://asa.scitation.org/doi/abs/10.1121/1.5035741). The *Journal of the Acoustical Society of America*, 143(3), 1754-1754.
 
 
 <!--
