@@ -6,3 +6,9 @@ Includes the following:
 - teachign exprience
 - Resume
 - Photo and relevant details
+
+## ToDos and future plans
+- Include details for workshops conducted
+- Add links to repos relevant to research
+- Outreach and academic service
+- Include page for skills and certifications
