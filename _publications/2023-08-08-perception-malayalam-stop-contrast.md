@@ -1,7 +1,7 @@
 ---
 title: " Perception of Malayalam three-way stop contrast among American English speakers"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2023-08-08-perception-malayalam-stop-contrast
 excerpt: 'Acoustic proximity of novel segments to existing categories affects perception. Competition also erodes relationships between a category and familiar segments; affecting identification. This study examines the pattern of perception of three novel Malayalam coronal stops (dental, alveolar, retroflex) by American English listeners. Participants responded to three-way forced-choice questions on consonant identity in VCV sequences. Accuracy and proportion of responses were analysed before and after exposure to the contrast. Alveolars were more likely to be identified correctly post-exposure, but not retroflexes, and the trend for dentals was significantly different from alveolars. Accuracy trends were not significant post-exposure. Retroflexes were significantly less confusible, and participants responded ‘retroflex’ fewer times for audio without them after exposure Participants do not start with a biased towards any stop, they could tell the difference between retroflexes and the other two stops- ‘coronal stop’ exist as one category, its perception has directionality and an observable trend.'
 date: 2023-08-08
 venue: 'Proceedings of the 20th International Congress of Phonetic Sciences,'
