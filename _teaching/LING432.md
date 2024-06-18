@@ -10,4 +10,4 @@ location: "Online"
 ---
 This course is cross-listed with the psychology and philosophy departments. It offers an introduction to language processing; and the psychological processes involved in the comprehension and production of sounds, words, and sentences. Other topics may include language breakdown and acquisition, brain and language, and bilingual processing.
 
-[Link to course web page:](https://philosophy.arizona.edu/course/phil-432-psychology-language)
+[Link to course description](https://philosophy.arizona.edu/course/phil-432-psychology-language)
