@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
 Hello! I’m Megh (she/her), a 6th year PhD candidate in linguistics, with a research specialization in phonetics and computational linguistics. My dissertation research investigates the linguistic aspects of vocal entrainment and phonetic accommodation, to find a relationship between convergence in speech patterns and cooperation among speakers in a team setting.
 
 My research experience includes L2 speech acquisition, pitch perception and its effects on phonemic identification, and the acoustics of complex tongue gestures. I have worked on the sound systems of Indic languages such as Malayalam, Bangla, Hindi, and Assamese. Besides phonetics, I enjoy learning about internet linguistics, encountering Englishes of the world; and composing short, fun language questionnaires for my friends on social media! 
