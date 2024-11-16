@@ -25,4 +25,5 @@ redirect_from:
 * Research Associate, SPLANG LAB, The English and Foreign Languages University, Hyderabad, India, October 2017-August 2019
 * Research Intern, Karadi Path Education Company, Chennai, India May 2016-July 2016
 
-[Download full Resumé here](https://github.com/meghavarshini/academicpages.github.io/blob/master/files/mkrishnaswamy.pdf)
+[Download Academic CV](https://github.com/meghavarshini/meghavarshini.github.io/blob/master/files/krishnaswamy_academic_CV.pdf)
+[Download Resumé](https://github.com/meghavarshini/academicpages.github.io/blob/master/files/mkrishnaswamy.pdf)
