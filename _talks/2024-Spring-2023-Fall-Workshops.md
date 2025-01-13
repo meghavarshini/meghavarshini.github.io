@@ -8,9 +8,6 @@ date: August 2023-April 2024
 location: "Tucson, Arizona"
 ---
 
-**Coordinator**: Megh Krishnaswamy. <br>
-**Location**: Albert B. Weaver Science-Engineering Library. <br>
-
 **Calendar:**
 
 | Date      | Title      | Topic Description     | Materials       |
@@ -19,6 +16,7 @@ location: "Tucson, Arizona"
 |   04/09  |  Natural Language Processing: Text Mining and Sentiment Analysis  | [Materials](https://github.com/ua-datalab/Workshops/wiki/Natural-Language-Processing:-Text-Mining-and-Sentiment-Analysis) |[Notebook](https://github.com/ua-datalab/Workshops/blob/main/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis.ipynb) |
 |   10/31  |  Natural Language Processing: Text Mining and Sentiment Analysis  | [Materials](https://github.com/ua-datalab/Workshops/wiki/Natural-Language-Processing:-Text-Mining-and-Sentiment-Analysis) |[Notebook](https://github.com/ua-datalab/Workshops/blob/main/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis.ipynb) |
 |   10/03  |  Introduction to Python for Data Science | [Materials](https://github.com/ua-datalab/Workshops/wiki/Introduction-to-Python-for-Data-Science) |[Notebook](https://github.com/ua-datalab/Workshops/blob/main/Introduction_to_Python_for_Data_Science/Intro_to_Python.ipynb) |
+
 *** 
 
 
