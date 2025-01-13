@@ -2,8 +2,8 @@
 
 Includes the following:
 - Link to all socials and academic affiliations
-- publications
-- teachign exprience
+- Publications
+- Teaching exprience
 - Resume
 - Photo and relevant details
 
