@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2024-Fall-NLP4All
 venue: "University of Arizona, Data Science Intitute"
-date: Fall 2024
+date: September-November, 2024
 location: "Tucson, Arizona"
 ---
 
