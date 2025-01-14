@@ -7,9 +7,11 @@ venue: "University of Arizona, Data Science Intitute"
 date: 04-09-2024
 location: "Tucson, Arizona"
 ---
+### Workshops lead in Fall 2023 and Spring 2024
 
-**Calendar:**
+Workshops include topics such as basic Python, building Recurrant Neural Networks, and using SpaCY for sentiment analysis and parsing.
 
+#### Calendar
 | Date      | Title      | Topic Description     | Materials       |
 | ------------- | ------------- | -------------      | -------------      |
 |   04/09  |  Natural Language Processing: Text Mining and Sentiment Analysis  | [Materials](https://github.com/ua-datalab/Workshops/wiki/Natural-Language-Processing:-Text-Mining-and-Sentiment-Analysis) |[Notebook](https://github.com/ua-datalab/Workshops/blob/main/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis.ipynb) |
