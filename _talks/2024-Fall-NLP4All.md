@@ -14,6 +14,7 @@ Image source: [Jeevan chavan's article "NLP: Tokenization , Stemming , Lemmatiza
 ### Natural Language Processing for All
 
 Permalink:[https://github.com/ua-datalab/NLP-Speech](https://github.com/ua-datalab/NLP-Speech)
+
 Join us for an engaging and accessible introduction to Natural Language Processing (NLP) and its practical applications for everyday tasks! In "NLP for All," we will explore the fundamental concepts behind NLP: From understanding how computers interpret human language; to discovering how to improve search queries, use regular expressions, find datasets, and learn about pipelines for working with language. Whether you're curious about chatbots, voice assistants, or automated text transcription and analysis, this series will demystify popular technologies and show you how they work.
 
 #### What We Will Cover:
