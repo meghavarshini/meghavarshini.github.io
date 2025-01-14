@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2024-Spring-2023-Fall-Workshops
 venue: "University of Arizona, Data Science Intitute"
-date: August 2023-April 2024
+date: October,2023-April,2024
 location: "Tucson, Arizona"
 ---
 
