@@ -8,19 +8,16 @@ date: September-November, 2024
 location: "Tucson, Arizona"
 ---
 
-![nlp](https://github.com/user-attachments/assets/e94316e9-7af5-442b-9c2e-af9e9e50dac2)
-Image source: [Jeevan chavan's article "NLP: Tokenization , Stemming , Lemmatization , Bag of Words ,TF-IDF , POS"](https://medium.com/@jeevanchavan143/nlp-tokenization-stemming-lemmatization-bag-of-words-tf-idf-pos-7650f83c60be)
-
 ### Natural Language Processing for All
 
 Permalink:[https://github.com/ua-datalab/NLP-Speech](https://github.com/ua-datalab/NLP-Speech)
 
-Join us for an engaging and accessible introduction to Natural Language Processing (NLP) and its practical applications for everyday tasks! In "NLP for All," we will explore the fundamental concepts behind NLP: From understanding how computers interpret human language; to discovering how to improve search queries, use regular expressions, find datasets, and learn about pipelines for working with language. Whether you're curious about chatbots, voice assistants, or automated text transcription and analysis, this series will demystify popular technologies and show you how they work.
+An engaging and accessible introduction to Natural Language Processing (NLP) and its practical applications for everyday tasks! In "NLP for All," I  explore the fundamental concepts behind NLP: From understanding how computers interpret human language; to discovering how to improve search queries, use regular expressions, find datasets, and learn about pipelines for working with language. This series will demystify popular technologies and show how they work.
 
 #### What We Will Cover:
-- **Foundations of NLP:** Gain a solid grasp of NLP concepts and terminology without needing a technical background.
-- **Real-World Applications:** Explore practical uses of NLP in various contexts, such as improving search and information retrieval, generating and evaluating automatic transcriptions, and working with popular libraries such as spaCy, PyTorch and scikit-learn.
-- **Hands-On Experience:** We will illustrate NLP concepts in action with a well-documented code notebook, aimed at solving practical examples. We will also explore online sources for NLP tools and datasets, such as HuggingFace.
+- **Foundations of NLP:** NLP concepts and terminology without needing a technical background.
+- **Real-World Applications:** Practical uses of NLP in various contexts, such as improving search and information retrieval, generating and evaluating automatic transcriptions, and working with popular libraries such as spaCy, PyTorch and scikit-learn.
+- **Hands-On Experience:** NLP concepts in action with a well-documented code notebook, aimed at solving practical examples. I also show online sources for NLP tools and datasets hosted on HuggingFace, SpeechBrain, WhisperAI and Ollama.
 
 #### Pre-requisites:
 - A Google account to run [Google Colab](http://colab.research.google.com/) (where we will do most of our programming exercises)
