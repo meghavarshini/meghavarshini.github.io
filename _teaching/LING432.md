@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 excerpt: "This course is cross-listed with the psychology and philosophy departments. It offers an introduction to language processing; and the psychological processes involved in the comprehension and production of sounds, words, and sentences. Other topics may include language breakdown and acquisition, brain and language, and bilingual processing."
 permalink: /teaching/LING432
-venue: " Univeristy of Arzona, Department of Linguistics"
+venue: "University of Arizona, Department of Linguistics"
 date: July-August, 2022 and 2023
 location: "Online"
 ---
