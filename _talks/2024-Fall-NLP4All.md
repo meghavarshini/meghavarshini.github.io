@@ -15,11 +15,13 @@ Permalink:[https://github.com/ua-datalab/NLP-Speech](https://github.com/ua-datal
 An engaging and accessible introduction to Natural Language Processing (NLP) and its practical applications for everyday tasks! In "NLP for All," I  explore the fundamental concepts behind NLP: From understanding how computers interpret human language; to discovering how to improve search queries, use regular expressions, find datasets, and learn about pipelines for working with language. This series will demystify popular technologies and show how they work.
 
 #### What We Will Cover:
+
 - **Foundations of NLP:** NLP concepts and terminology without needing a technical background.
 - **Real-World Applications:** Practical uses of NLP in various contexts, such as improving search and information retrieval, generating and evaluating automatic transcriptions, and working with popular libraries such as spaCy, PyTorch and scikit-learn.
 - **Hands-On Experience:** NLP concepts in action with a well-documented code notebook, aimed at solving practical examples. I also show online sources for NLP tools and datasets hosted on HuggingFace, SpeechBrain, WhisperAI and Ollama.
 
 #### Pre-requisites:
+
 - A Google account to run [Google Colab](http://colab.research.google.com/) (where we will do most of our programming exercises)
 - Basic knowledge of Python. You can brush up python fundamentals with Software Carpentry's [Introduction to Python (section 1)](https://swcarpentry.github.io/python-novice-inflammation/01-intro.html) 
 
