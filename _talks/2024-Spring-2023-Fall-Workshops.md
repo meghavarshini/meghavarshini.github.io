@@ -9,7 +9,7 @@ location: "Tucson, Arizona"
 ---
 ### Workshops lead in Fall 2023 and Spring 2024
 
-Workshops include topics such as basic Python, building Recurrant Neural Networks, and using SpaCY for sentiment analysis and parsing.
+Workshops include topics such as basic Python, building Recurrent Neural Networks, and using SpaCY for sentiment analysis and parsing.
 
 #### Calendar
 | Date      | Title      | Topic Description     | Materials       |
