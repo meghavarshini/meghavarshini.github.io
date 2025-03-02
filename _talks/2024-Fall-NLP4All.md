@@ -1,5 +1,5 @@
 ---
-title: "Workshop series:NLP For All"
+title: "Workshop series: NLP For All"
 collection: talks
 type: "Talk"
 permalink: /talks/2024-Fall-NLP4All
