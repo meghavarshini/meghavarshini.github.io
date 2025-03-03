@@ -12,7 +12,7 @@ location: "Tucson, Arizona"
 
 Workshops include topics such as basic Python, building Recurrent Neural Networks, and using SpaCY for sentiment analysis and parsing.
 
-#### Calendar
+### Calendar
 
 | Date      | Title      | Topic Description     | Materials       |
 | ------------- | ------------- | -------------      | -------------      |
