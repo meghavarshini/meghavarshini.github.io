@@ -8,8 +8,6 @@ date: September-November, 2024
 location: "Tucson, Arizona"
 ---
 
-### Natural Language Processing for All
-
 Permalink:[https://github.com/ua-datalab/NLP-Speech](https://github.com/ua-datalab/NLP-Speech)
 
 An engaging and accessible introduction to Natural Language Processing (NLP) and its practical applications for everyday tasks! In "NLP for All," I  explore the fundamental concepts behind NLP: From understanding how computers interpret human language; to discovering how to improve search queries, use regular expressions, find datasets, and learn about pipelines for working with language. This series will demystify popular technologies and show how they work.

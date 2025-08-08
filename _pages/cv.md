@@ -11,7 +11,7 @@ redirect_from:
 
 ## Education
 
-* Linguistics PhD Program, University of Arizona, 2019-Present
+* PhD Linguistics, University of Arizona, 2019-2025
 * M.S. Human Language Technologies, University of Arizona, 2021
 * MA Linguistics, The English and Foreign Languages University, Hyderabad, 2015
 * BA(Hons), Lady Shri Ram College, University of Delhi, 2013
