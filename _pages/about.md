@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 Hello! I’m Megh (she/her). I am a linguist, with a specialisation in phonetics and computational linguistics. 
-
 I am currently employed as a Postdoctoral Associate at the Center for Educational Data Science and Innovation (EDSI), Unviersity of Maryland (College Park); where my responsibilities include designing and leading research studies, providing language science expertise, facilitating peer learning, and investigating key issues in speech science applications in education technology.
 
 My dissertation research investigated the linguistic aspects of vocal entrainment and phonetic accommodation, to find a relationship between convergence in speech patterns and cooperation among speakers in a team setting.
