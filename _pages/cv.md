@@ -18,9 +18,10 @@ redirect_from:
 
 ## Work Experience
 
+* Postdoctoral Associate, Center for Educational Data Science and Innovation (EDSI), University of Maryland, College Park, August 2025-Present
 * Graduate Research Assistantships at the University of Arizona:
   * UArizona DataLab, August,2023-Present
-  * ToMCAT Project, School of Information, May 2020- December-2023
+  * ToMCAT Project, School of Information, May 2020-December 2023
   * Douglass Phonetics Lab, Department of Linguistics, January 2020-December 2020
 * Research Associate, SPLANG LAB, The English and Foreign Languages University, Hyderabad, India, October 2017-August 2019
 * Research Intern, Karadi Path Education Company, Chennai, India May 2016-July 2016

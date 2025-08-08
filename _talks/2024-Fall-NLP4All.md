@@ -8,22 +8,20 @@ date: September-November, 2024
 location: "Tucson, Arizona"
 ---
 
-Permalink:[https://github.com/ua-datalab/NLP-Speech](https://github.com/ua-datalab/NLP-Speech)
-
 An engaging and accessible introduction to Natural Language Processing (NLP) and its practical applications for everyday tasks! In "NLP for All," I  explore the fundamental concepts behind NLP: From understanding how computers interpret human language; to discovering how to improve search queries, use regular expressions, find datasets, and learn about pipelines for working with language. This series will demystify popular technologies and show how they work.
 
-#### What We Will Cover:
+## What We Will Cover:
 
 - **Foundations of NLP:** NLP concepts and terminology without needing a technical background.
 - **Real-World Applications:** Practical uses of NLP in various contexts, such as improving search and information retrieval, generating and evaluating automatic transcriptions, and working with popular libraries such as spaCy, PyTorch and scikit-learn.
 - **Hands-On Experience:** NLP concepts in action with a well-documented code notebook, aimed at solving practical examples. I also show online sources for NLP tools and datasets hosted on HuggingFace, SpeechBrain, WhisperAI and Ollama.
 
-#### Pre-requisites:
+## Pre-requisites:
 
 - A Google account to run [Google Colab](http://colab.research.google.com/) (where we will do most of our programming exercises)
 - Basic knowledge of Python. You can brush up python fundamentals with Software Carpentry's [Introduction to Python (section 1)](https://swcarpentry.github.io/python-novice-inflammation/01-intro.html) 
 
-#### Calendar
+## Calendar
 
 | Date      | Title      | Topic Description     | Materials       |
 | ------------- | ------------- | -------------      | -------------      |
@@ -35,5 +33,7 @@ An engaging and accessible introduction to Natural Language Processing (NLP) and
 | 10/10/2024 3PM | Text pre-processing for NLP | Prepare your text data for advanced analysis with our primer on text pre-processing for Natural Language Processing. Text pre-processing is a crucial step in any NLP pipeline, ensuring that your data is clean, normalized, and ready for modeling. This workshop will introduce pre-processing techniques for text data from sources such as  web scraping and online datasets. We will take a look at  tools available for categorising, organizing and tagging our text. With a practical demonstration, we will explore handling various text formats, dealing with noise, and transforming text into a format suitable for machine learning algorithms. Whether you are interested in an NLP task or just making sense of a data dump, join us for this session on the tools and knowledge to optimize your text data effectively!  |[Link to Notebook](https://github.com/ua-datalab/NLP-Speech/blob/main/Text_pre_processing_for_NLP/Text_pre_processing_for_NLP.ipynb) |
 | 10/17/2024 3PM | Introduction to Speech Technology | Explore the field of Speech Technology with this introductory workshop, designed to improve your knowledge of the  principles and applications of speech processing. This is a beginner-friendly, hands-on workshop that covers the basics of acoustic modeling, phonetics, and a brief look at the applications of speech technology in modern applications.  We will discuss real-world applications such as automatic transcription, speech recognition, text-to-speech synthesis, and speaker identification, and take a look at existing tools and techniques for building simple speech-powered tools. |[Link to Notebook](https://github.com/ua-datalab/NLP-Speech/blob/main/Introduction_to_Speech_Technology/Introduction_to_Speech_Technology.ipynb) |
 | 10/24/2024 3PM | Speech-to-Text with Whisper AI |  Whisper AI, known for its high accuracy and efficiency, is transforming the way we convert spoken language into written text. This workshop provides an overview of Whisper AI's architecture and features, and covers the process of building, training, and deploying speech-to-text models. We will explore real-world applications such as automatic transcription, and look at ways to effectively evaluate our output (such as WER scores) .With a practical coding examples, we will cover handling speech data in various languages, to achieve high-quality transcription, and explore ways of creating pipelines in Python to save and process our outputs. |[Link to Notebook](https://github.com/ua-datalab/NLP-Speech/blob/main/Speech_to_Text_with_Whisper/Speech_to_Text_with_Whisper.ipynb) |
+
+Permalink:[https://github.com/ua-datalab/NLP-Speech](https://github.com/ua-datalab/NLP-Speech)
 
 *** 
