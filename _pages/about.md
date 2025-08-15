@@ -30,3 +30,7 @@ I have also worked as a GRA in the Douglas Phonetics Lab (University of Arizona)
 *	Automatic speech detection
 *	L2 speech acquisition
 *	Stop contrasts and the impact of articulatory and perceptual constraints
+
+[Research Statement](https://github.com/meghavarshini/meghavarshini.github.io/blob/master/files/MKrishnaswamy_Research-Statement.pdf)
+
+[Teaching Statement](https://github.com/meghavarshini/meghavarshini.github.io/blob/master/files/MKrishnaswamy_Teaching-Statement.pdf)
