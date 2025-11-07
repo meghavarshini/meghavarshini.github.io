@@ -8,6 +8,9 @@ date: March, 2025
 location: "College Park, Maryland"
 ---
 
+Invited talk at the Computational Linguistics and Information Processing (CLIP) Lab, University of Maryland
+
+
 **Abstract**
 
 Human communication conveys more than linguistic content: our words, vocal characteristics, grammatical choices, and gestures entrain (or disentrain) to dynamically match those of our interlocutors as turns are exchanged, unconsciously building rapport and signalling cohesion. This entrainment has been shown to correlate with improved outcomes for tasks that require cooperation and good communication, such as psychological counselling, team activities, and group projects.
