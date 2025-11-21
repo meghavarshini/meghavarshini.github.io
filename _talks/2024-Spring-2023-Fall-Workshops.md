@@ -1,5 +1,5 @@
 ---
-title: "Workshop Offered in Fall 2023 and Spring 2024"
+title: "NLP and Data Science workshops: Fall 2023 and Spring 2024"
 collection: talks
 type: "Talk"
 permalink: /talks/2024-Spring-2023-Fall-Workshops
