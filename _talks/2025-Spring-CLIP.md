@@ -20,4 +20,6 @@ While dyadic (or two-party) entrainment has more balanced turn-taking and flow, 
 In this talk, I discuss vocal entrainment on two fronts: one, building experiments to study entrainment in non-dyadic (or multi-party) conversations among strangers engaged in cooperative tasks; and two, evaluating the efficacy of modelling two- and multi-party entrainment with unsupervised deep learning models.
 
 Permalink:[https://languagescience.umd.edu/events/clip-talk-meghavarshini-krishnaswamy](https://languagescience.umd.edu/events/clip-talk-meghavarshini-krishnaswamy)
-*** 
+
+***
+
