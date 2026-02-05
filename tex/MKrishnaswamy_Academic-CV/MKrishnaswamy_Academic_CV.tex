@@ -1,0 +1,715 @@
+%
+%Academic CV LaTeX Template
+% Author: Dubasi Pavan Kumar
+% LinkedIn: https://www.linkedin.com/in/im-pavankumar/
+% License: MIT
+%
+% For errors, suggestions, or improvements, please contact:
+% Email: pavankumard.pg19.ma@nitp.ac.in
+%
+
+
+
+\documentclass[a4paper,12pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+    % \setlist[itemize]{itemsep=1pt, parsep=0pt}
+    % \setlist[enumerate]{itemsep=1pt, parsep=0pt}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+
+%%%%%%% Fonts %%%%%%%%%%%%
+% For symbols
+\usepackage{fontawesome5}
+% Math stuff
+\usepackage[sc]{mathpazo}
+\usepackage{amsmath, amssymb, amsfonts}
+% Optional: Microtype for better typography
+\usepackage{microtype}
+
+% PDFLATEX
+    \usepackage[T1]{fontenc}
+
+
+% % Font and Language support for XeLaTeX
+%     \usepackage{fontspec} % Font support for XeLaTeX
+%     \setmainfont{Noto Serif} % Set a specific font (system font)
+%     % Language support
+%     \usepackage{polyglossia}
+%     \setmainlanguage{english}
+
+\usepackage{xcolor}
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=2cm, right=1.2cm, bottom=2cm}
+\setlength{\footskip}{5pt} % Addressing fancyhdr warning
+
+% % Hyperlink setup (moved after fancyhdr to address warning)
+% \usepackage[hidelinks]{hyperref}
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=darkblue,
+%     filecolor=darkblue,
+%     urlcolor=darkblue,
+% }
+
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+% Set the citation style
+\usepackage[
+    backend=biber,      % Specifies the backend to be used by BibLaTeX for processing the bibliography. 'biber' is the default backend.
+    maxnames=20,        % Limits the maximum number of author names to display before abbreviating with "et al."
+    style=nature,       % Sets the citation style to 'nature,' which is commonly used in scientific papers.
+    sorting=ydnt,       % Specifies the sorting order of entries in the bibliography:
+                        % y - year (descending)
+                        % d - descending order
+                        % n - name
+                        % t - title
+    defernumbers=true,  % Delays the assignment of citation numbers until the end of the document, allowing for the correct order of citations within each bibliography section.
+]{biblatex}
+\addbibresource{ref.bib} % Adds the bibliography resource file 'ref.bib' containing all the references.
+\renewcommand{\bibfont}
+{\normalfont\small}
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{0.8em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like (similar to Arial/Calibri)
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like (similar to Times New Roman)
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino (elegant serif)
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman (readable serif)
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like (similar to Trebuchet MS)
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica (another Arial/Calibri alternative)
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino (another elegant serif option)
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times (another Times New Roman alternative)
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} % Charter (clean serif font)
+
+% Hyperlink setup (moved after fancyhdr to address warning)
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+    citecolor=darkblue
+}
+
+
+
+
+
+\begin{document}
+
+% Uncomment if using PDFLATEX
+    \headerfontiii
+
+% Header
+\begin{center}
+    {\Huge\textbf{MEGHAVARSHINI KRISHNASWAMY}}
+\end{center}
+\vspace{3mm}
+
+% \noindent
+\begin{minipage}[t]{0.4\textwidth}
+    % \small{
+        EDSI, University of Maryland, College Park\\
+        Center for Educational Data Science and Innovation\\ 
+        Suite 0102, Benjamin Building\\ 
+        College Park, Maryland - 20740, USA
+    % }
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+    \small{
+        \socialicon{\faEnvelope} \href{mailto:mkswamy@umd.edu}{mkswamy[at]umd.edu}\\
+        \socialicon{\faGraduationCap} \href{https://edsi.umd.edu/directory/megh-krishnaswamy}{megh-krishnaswamy}\\
+        \socialicon{\faLinkedin} \href{www.linkedin.com/in/meghavarshini-krishnaswamy}{meghavarshini-krishnaswamy}\\
+        \socialicon{\faGithub} \href{https://github.com/meghavarshini}{meghavarshini}\\
+        \socialicon{\faGlobe} \href{https://meghavarshini.github.io}{meghavarshini.github.io}    
+        }
+\end{minipage}
+
+\section{\textbf{Objective}}\label{objective}
+\vspace{1mm}
+\small{
+I am a computational linguist and phonetician. I am interested in an interdisciplinary research career and mentorship role, where I can work with language and behavioural data, and applied computational methods. I want to mentor the next generation of scientists, with a focus on data science principles, project management, and quantitative and qualitative methods for human subject data collection. I aim to add to their knowledge and experience in experimental and applied linguistics.
+}
+\vspace{-2mm}
+
+\section{\textbf{Education}}\label{education}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Arizona}{Tucson Arizona, USA}
+{PhD, Linguistics}{Aug 2019--July 2025}
+\resumeItemListStart
+\item GPA: 3.9/4.00
+\resumeItemListEnd
+
+\resumeSubheading
+{University of Arizona}{Tucson Arizona, USA}
+{MS, Human Language Technology}{Aug 2019--May 2021}
+\resumeItemListStart
+\item GPA: 3.9/4.00
+\resumeItemListEnd
+
+\resumeSubheading
+{The English and Foreign Languages University}{Hyderabad, India}
+{MA, Linguistics}{July 2013--May 2015}
+\resumeItemListStart
+\item GPA: 72.9\%
+\resumeItemListEnd
+
+\resumeSubheading
+{University of Delhi}{New Delhi, India}
+{BA (Hons.), English}{July 2010--June 2013}
+\resumeItemListStart
+\item Score: 59.8\%, II-Division
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-8mm}
+
+\section{\textbf{Professional Affiliations and Experience}}\label{professional-affiliation-experience}
+\vspace{-0.4mm}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Center for Educational Data Science and Innovation,  [\href{https://edsi.umd.edu}{\faIcon{globe}}]}{College Park}
+        {Postdoctoral Associate}{Aug 2025 - }
+        \resumeItemListStart
+          \item Provide language science expertise for providing teachers data-driven teaching feedback.
+          \item Building pipelines for building speech models for automatic speech recognition of children's speech. 
+          \item Set up linguistic and phonetic analysis on spoken and written communications generated in K12 teaching environments.
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {SPLANG Phonetics Lab (phonetics and psycholinguistics), EFL University\textbf{}}{Hyderabad, India}
+        {Research Associate}{Oct 2017 - Aug 2019}
+        \resumeItemListStart
+          \item Designed and conducted acoustic phonetics experiments for languages such as Bengali, Mongolian, Malayalam and Hindi.
+          \item Conducted corpus analysis and qualitative assessments on multi-lingual internet corpora to find stimuli for experiments.
+          \item Created audio stimuli using Praat and ffmpeg for eye-tracking experiments and perception tasks.
+          \item Wrote R and Python scripts for statistical analysis and data visualisation.
+          \item Co-authored papers, conference posters, research proposals and presentations.
+          \item Provided training to students for experimental modalities such as ultrasound, eye-tracking, and speech perception and production.
+          \item Managed administrative tasks such as purchase requests, lab equipment setup, documentation for datasets, scheduling lab activities, and drafting the lab's budget and spending.  
+          \item My research contributed to publication \cite{dutta2019articulatory, gp2023mismatch, mitracoarticulation, krishnaswamy2018active, krishnaswamy2020alveolar}.
+    \resumeItemListEnd
+  
+\resumeSubHeadingListEnd
+\vspace{-8mm}
+
+\section{\textbf{Academic Research Experience}}\label{academic-research-experience}
+\vspace{-0.4mm}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Center for Educational Data Science and Innovation,  [\href{https://edsi.umd.edu}{\faIcon{globe}}]}{College Park}
+        {Postdoctoral Associate}{Aug 2025 - }
+        \resumeItemListStart
+          \item Provide language science expertise for providing teachers data-driven teaching feedback.
+          \item Building pipelines for building speech models for automatic speech recognition of children's speech. 
+          \item Set up linguistic and phonetic analysis on spoken and written communications generated in K12 teaching environments.
+    \resumeItemListEnd
+
+    \resumeSubheading
+          {{Data Science Institute [\href{https://datascience.arizona.edu}{\faIcon{globe}}]}}{Tucson, USA}
+          {Graduate Research Assistant (educator and consultancy)}{Aug 2023--July 2025}
+          \resumeItemListStart
+            \item Designed and delivered technical workshops encompassing NLP, python programming, command line interface proficiency, version control, High Performance Computing (HPC), and AI tools for research. See associated Github repository \href{https://github.com/ua-datalab/NLP-Speech}[\href{https://github.com/ua-datalab/NLP-Speech}{\faGithub}].
+            \item Collaborated in creating a language processing pipeline for quantum NLP applications in low-resource languages.
+            \item Spearheaded a collaboration with computational linguistics faculty, for improving HPC understanding and knowledge.
+            \item Provided consulting services for university research projects (data science and NLP), for the successful execution and optimization of these projects.
+    \resumeItemListEnd 
+ 
+    \resumeSubheading
+        {DARPA ASIST-ToMCAT Project (NLP) [\href{https://ml4ai.github.io/tomcat}{\faIcon{globe}}]}{Tucson}
+        {Graduate Research Assistant}{May 2020 - Dec 2023}
+        \resumeItemListStart
+          \item Conducted doctoral research on the efficacy of using neural network models for speech synchrony/vocal entrainment in spontaneous conversations \cite{krishnaswamy2025}.
+          \item Contributed code, research insights, and qualitative assessments for vocal feature extraction using OpenSMILE, Praat and Python.
+          \item Reported on the viability of different voice recording platforms for collecting human subject data and automatic transcriptions, and performed quality assessments.
+          \item Performed literature reviews and assessed datasets for multimodal sentiment and emotion classification projects.
+          \item Provided documentation and writing for effective communication of our research findings for DARPA Principal Investigators (PIs) Meetings and Github documentation.
+          \item Contributed research to publications presented at NeurIPS, NAACL, and ICML: \cite{multicat, pyarelal2023tomcat,soares2024probabilistic,culnan2021me, krishnaswamy2025lstm}.
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Douglass Phonetics Lab (applied linguistics)) [\href{https://ml4ai.github.io/tomcat}{\faIcon{globe}}]}{Tucson}
+        {Graduate Research Assistant}{Jan 2020 - Dec 2020}
+        \resumeItemListStart
+          \item Coordinated the lab's ongoing phonetics experiments and data collection.
+          \item Initiated the migration of the lab's experiments to remote platforms (like Finding Five) during the pandemic, and assessed their viability.
+          \item Provided training and technical support to undergraduate researchers.
+          \item Contributed documentation for the data exploration and statistical analysis.
+          \item Conducted transcription and extraction of phonetic data on Praat.
+          \item My research contributed to publication \cite{krishnaswamy2023perception}.
+\resumeItemListEnd
+
+    \resumeSubheading
+        {SPLANG Phonetics Lab (phonetics and psycholinguistics), EFL University\textbf{}}{Hyderabad, India}
+        {Research Associate}{Oct 2017 - Aug 2019}
+        \resumeItemListStart
+          \item Designed and conducted acoustic phonetics experiments for languages such as Bengali, Mongolian, Malayalam and Hindi.
+          \item Conducted corpus analysis and qualitative assessments on multi-lingual internet corpora to find stimuli for experiments.
+          \item Created audio stimuli using Praat and ffmpeg for eye-tracking experiments and perception tasks.
+          \item Wrote R and Python scripts for statistical analysis and data visualisation.
+          \item Co-authored papers, conference posters, research proposals and presentations.
+          \item Provided training to students for experimental modalities such as ultrasound, eye-tracking, and speech perception and production.
+          \item Managed administrative tasks such as purchase requests, lab equipment setup, documentation for datasets, scheduling lab activities, and drafting the lab's budget and spending.  
+          \item My research contributed to publication \cite{dutta2019articulatory, gp2023mismatch, mitracoarticulation, krishnaswamy2018active, krishnaswamy2020alveolar}.
+    \resumeItemListEnd
+  
+\resumeSubHeadingListEnd
+\vspace{-8mm}
+
+\section{\textbf{Teaching Experience}}\label{teaching-experience}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeProject
+      {LING314: Phonetics, [Instructor on record] }
+      {Tools: D2L, Praat, Qualtrics}
+      {Jan 2023 - May 2023}
+      {{}[\href{https://linguistics.arizona.edu/course/ling-314-phonetics}{\textcolor{darkblue}{\faGlobe}}]}
+    \resumeItemListStart
+       \item Introduced core topics in phonetic science and the articulation, acoustic processing, and perception of human speech, with a focus on the prosodic properties and the phonetic structure of different dialects of English.
+       \item Taught the fundamentals of transcribing sound patterns with the International Phonetic Alphabet and the terminology for phonetic features.
+       \item Lead lab sessions to collect, process, and analyze acoustic features, and read spectrograms for different consonants and vowels.
+    \resumeItemListEnd
+
+\resumeProject
+      {LING432 (5-week, online), Psychology of Language [Instructor on record]}
+      {Tools: D2L, Panopto, Zoom whiteboard and quizzes }
+      {Summer 2022 and 2023}
+      {{}[\href{https://philosophy.arizona.edu/course/phil-432-psychology-language}{\textcolor{darkblue}{\faGlobe}}]}
+    \resumeItemListStart
+       \item Introduced topics in language processing.
+       \item Created teaching materials on comprehension and production of sounds, words, and sentences, and the psychological processes involved.
+       \item Lead discussions on bilingual processing, speech errors, and artificial speech.
+       \item Designed student assignments and quizzes, and provided feedback on academic writing.
+       \item Recorded weekly lectures on Panopto.
+    \resumeItemListEnd
+  
+  \resumeProject
+      {LING150, Language and the World [Grader]}
+      {Tools: D2L, Panopto, MS Office suite }
+      {Aug - Dec 2019}
+      {{}[\href{https://linguistics.arizona.edu/gen-ed}{\textcolor{darkblue}{\faGlobe}}]}
+    \resumeItemListStart
+       \item Conducted weekly section meetings and office hours.
+       \item Provided detailed feedback and evaluation on student's assignments.
+       \item Supported students with the design of a constructed language and documenting its grammar. 
+    \resumeItemListEnd
+   \resumeProject
+      {Teach for India, Hyderabad}
+      {5th and 6th grade}
+      {May 2015 - Apr 2015}
+      {{}[\href{https://linguistics.arizona.edu/gen-ed}{\textcolor{darkblue}{\faGlobe}}]}
+    \resumeItemListStart
+       \item Taught 6th grade English and Science, and 5th grade Maths and Environmental Sciences.
+       \item Participated in and conducted rigorous teacher-training programs.
+       \item Raised approximately 82,000 INR to set up a digital classroom, class library and fund a sports training program. 
+   \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-8mm}
+
+
+
+\section{\textbf{Publications}\label{publications}
+\hfill 
+\textcolor{darkblue}{\scriptsize
+                      C=Proceedings, 
+                      P=Poster, 
+                      W=Publication in Progress, 
+                      D=Dissertation,
+                      }
+        }
+\newrefcontext[labelprefix=C]
+\vspace{0.2mm}
+\nocite{*} % Ensures uncited items are included
+\printbibliography[
+    type=inproceedings, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=C % Include items in ref.bib with keyword={J}
+    ]
+\vspace{-4mm}
+
+\newrefcontext[labelprefix=D]
+\printbibliography[
+    type=thesis, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=D % Include items in ref.bib with keyword={J}
+    ]
+\vspace{-4mm}
+
+\newrefcontext[labelprefix=P]
+\printbibliography[
+    heading=none,
+    type=misc, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=P % Include items in ref.bib with keyword={J}
+    ]
+\vspace{-4mm}
+
+\newrefcontext[labelprefix=W]
+\printbibliography[
+    heading=none,
+    type=misc, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=W % Include items in ref.bib with keyword={J}
+    ]
+
+\vspace{-7mm}
+
+\section{\textbf{Skills}}\label{skills}
+\vspace{-0.4mm}
+    \resumeHeadingSkillStart
+        \resumeSubItem{Programming and Scripting:}
+        {Python, R, Praat scripting, bash scripting, grep, ssh, slurm}
+        \resumeSubItem{Web Technologies:}
+        {D2L, Google Docs, Panopto, Qualtrics}
+        \resumeSubItem{Data and Code Management Systems:}
+        {Pandas, Bee Keeper, Excel, git }
+        \resumeSubItem{NLP, Data Science \& Machine Learning:}
+        {Pytorch, ScikitLearn, PyKaldi, SpaCy, NLTK, Matplotlib, Pandas, Numpy, Notebooks, WhisperAI, SpeechBrain, Ollama, Jupyter}
+        \resumeSubItem{NLP and Phonetics:}
+        {SpaCy, NLTK, Beautiful Soup, perl, Ollama, WhisperAI, SpeechBrain, Praat, Parseltongue, Kaldi, OpenSMILE, ffmpeg}
+        \resumeSubItem{Mathematical \& Statistical Tools:}
+        {numpy, scipy, ggplot, lme4, dplyr, gss }
+        \resumeSubItem{Other Tools \& Technologies:}
+        {imagemagik, HPC, Gradio}
+        \resumeSubItem{Documentation and editing:}
+        { \LaTeX, MS Word, RMarkdown \& Knitr, MKdocs, Github Pages, vim, Jupyter Notebooks}
+        %   \resumeSubItem{DevOps \& Version Control:}
+        %     {Tool 1, Tool 2, Tool 3, Tool 4, Tool 5}
+    \resumeHeadingSkillEnd
+\vspace{-3mm}
+
+
+\section{\textbf{Fellowships and Awards}}\label{fellowships}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {Data Science Fellowship}
+      {Data Science Institute, University of Arizona}
+      {Jan - Apr 2023}      {[\href{https://datascience.arizona.edu/education/data-science-fellows}{\textcolor{darkblue}{\faIcon{globe}}}]}
+        \resumeItemListStart
+          \item Training for data management planning, research reproducibility and accessibility, and effective
+software documentation.
+          \item Awarded a cash stipend of \$6000.
+          \item Submitted a paper+code sample Github repository as my capstone project [\href{https://github.com/meghavarshini/foss_capstone_entrainment_detector}{\faGithub}].
+        \resumeItemListEnd
+    
+    \resumeProject
+      {Artistic Expression of Original Research}
+      {Institute for Resilience, University of Arizona}
+      {Oct 2024}
+      {{}[\href{https://arts.arizona.edu/exhibition-brings-together-science-art-and-community-building/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+        \resumeItemListStart
+          \item Selected to participate in a 3-day retreat, with workshops and talks on science communication, artistic techniques.
+          \item Created a mixed-media installation depicting my doctoral research for three public exhibitions.
+        \resumeItemListEnd
+    
+    \resumeProject
+      {Travel award}
+      {Department of Linguistics, University of Arizona}
+      {July 2023}
+      {}% {[\href{https://competition-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+        \resumeItemListStart
+          \item Awarded \$1000 towards research travel to the International Congress for Phonetic Science 2023 for presenting \cite{krishnaswamy2023perception, mitracoarticulation,gp2023mismatch}.
+        \resumeItemListEnd
+ 
+    \resumeProject
+      {Research Fund Award}
+      {Department of Linguistics, University of Arizona}
+      {February 2022}
+      {}% {{}[\href{https://competition-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+        \resumeItemListStart
+          \item Awarded \$800 towards experimental research contributing to publication \cite{krishnaswamy2023perception}.
+        \resumeItemListEnd
+    
+    % \resumeProject
+    %   {Competition Achievement}
+    %   {Competition Name, Organizing Body}
+    %   {Month Year}
+    %   {{}[\href{https://competition-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    %     \resumeItemListStart
+    %       \item Specific achievement or rank in the competition
+    %       \item Skills or abilities demonstrated through this achievement
+    %     \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-8mm}
+
+
+\section{\textbf{Leadership Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {Coordinator, Arizona Linguistics Circle Conference}
+      {University of Arizona}
+      {May 2022 - Oct 2021}
+      {{}[\href{https://easychair.org/cfp/alc16}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+        \item Build the Easychair abstracts submission portal.
+        \item Recruited reviewers and coordinated the double-blind peer review.
+        \item Managed all communications with authors.
+        \item Created documentation for all procedures.
+    \resumeItemListEnd
+
+    \resumeProject
+      {Coordinator, Arizona Linguistics Circle Conference}
+      {University of Arizona}
+      {May 2021 - Oct 2021}
+      {{}[\href{https://sites.google.com/view/alc15}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+      \item Managed social media accounts across multiple platforms.
+      \item Created PR materials for disseminating information on the conference.
+      \item Created profiles for authors and their submissions.
+    \resumeItemListEnd
+
+    \resumeProject
+      {Office bearer, Arizona Linguistics Circle}
+      {University of Arizona}
+      {Jan 2021 - Present}
+      {{}[\href{https://linguistics.arizona.edu/linguistics-circle}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeItemListStart
+      \item Represented the student body in faculty meetings.
+      \item Managed equipment and amenities in the student spaces.
+      \item Mentored incoming graduate students.
+      \item Volunteered in presentations and university showcases.
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Service}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+    \resumeProject
+      {Instructor, Software Carpentry Workshop}
+      {University of Arizona}
+      {March 2025}
+      {{}[\href{https://ua-carpentries-workshops.github.io/2025-03-22-Tucson/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    \resumeProject
+      {Instructor, Software Carpentry Workshop}
+      {University of Arizona}
+      {December 2023}
+      {{}[\href{https://ua-carpentries-workshops.github.io/2023-12-09-Tucson/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+
+    \resumeProject
+      {Reviewer, Cayote papers}
+      {University of Arizona}
+      {Oct 2021}
+      {{}[\href{https://coyotepapers.sbs.arizona.edu/issues-coyote-papers}{\textcolor{darkblue}{\faIcon{globe}}}]}
+    
+    \resumeProject
+      {Reviewer}
+      {Peer J Computer Science}
+      {Mar 2023}
+      {{}[\href{https://peerj.com/computer-science/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+% \section{\textbf{Professional Memberships}}
+% \vspace{-0.4mm}
+% \resumeSubHeadingListStart
+% \resumePOR{Professional Organization A}
+%     {, Membership ID: XXXXXXXX}
+%     {Month Year - Present}
+% \resumePOR{Professional Organization B}
+%     {, \href{https://membership-certificate-link.com}{Membership ID: XXXXXXXX}}
+%     {Month Year - Present}
+% \resumePOR{Professional Organization C}
+%     {, \href{https://membership-certificate-link.com}{Membership ID: XXXXXXXX}}
+%     {Month Year - Present}
+
+% \resumeSubHeadingListEnd
+% \vspace{-6mm}
+
+% \section{\textbf{Certifications}}
+% \vspace{-0.2mm}
+% \resumeSubHeadingListStart
+% \resumePOR{}{\href{https://certification-link-a.com}{
+% \textbf{Certification A}
+% }}{Month Year}
+% \resumePOR{}{
+% \textbf{Certifying Body:} {{\href{https://certification-link-b.com}{Certification B}}}}{Month Year}
+% \resumePOR{}{
+% \textbf{Certifying Body:} {{\href{https://certification-link-c.com}{Certification C}}}}{Month Year}
+% \resumePOR{}{\href{https://certification-link-d.com}{
+% \textbf{Certification D}
+% }}{Month Year}
+
+% \resumeSubHeadingListEnd
+% \vspace{-6mm}
+
+% \section{\textbf{Additional Information}}
+% \vspace{-0.4mm}
+% \small{
+% \textbf{Languages:} English (proficient), Hindi (native), Tamil (native), German (A1).
+
+% \textbf{Interests:} Interest 1, Interest 2, Interest 3, Interest 4
+% }
+% \vspace{-4mm}
+
+% \section{\textbf{References}}
+% \vspace{-0.2mm}
+% \small{
+% \begin{enumerate}[leftmargin=*,labelsep=2mm]
+%     \item \textbf{Natasha Warner}\\
+%        Professor, Department of Linguistics\\
+%        The University of Arizona\\
+%        Email: nwarner@arizona.edu\\
+%        Phone: +1-520-626-5591\\
+%        \textit{Relationship: Dissertation Advisor}
+    
+%     \item \textbf{Indranil Dutta}\\
+%        Professor, School of Languages and Linguistics\\
+%        Jadavpur University, Kolkata\\
+%        Email: indranildutta.lnl@jadavpuruniversity.in\\
+%        % Phone: +X-XXX-XXX-XXXX\\
+%        \textit{Relationship: Principle Investigator, dst-csri project: `Influence of coarticulation on lexical access'}
+    
+%     \item \textbf{ Carlos Lizárraga}\\
+%        Computational \& Data Scientist Educator, Data Science Institute\\
+%        The University of Arizona\\
+%        Email: clizarraga@arizona.edu\\
+%        % Phone: +X-XXX-XXX-XXXX\\
+%        \textit{Relationship: GRA Supervisor}
+% \end{enumerate}
+% }
+% \end{itemize}
+\end{document}
+
+%%%%%%%%%%% Original Header %%%%%%%%%%%%%%%
+% \begin{center}
+%     \small{ \socialicon{\faEnvelope}~\href{mailto:mkrishnaswamy@arizona.edu}{mkrishnaswamy[at]arizona.edu}\\
+%     \socialicon{\faGraduationCap}\href{https://linguistics.arizona.edu/person/meghavarshini-krishnaswamy/}{meghavarshini-krishnaswamy}
+%     }\\
+% \end{center}
+% \vspace{-5.7mm}
+% \begin{center}
+%     \small{
+%     \socialicon{\faLinkedin} \href{www.linkedin.com/in/meghavarshini-krishnaswamy}{meghavarshini-krishnaswamy}\\ 
+%     \socialicon{\faGithub} \href{https://github.com/meghavarshini}{meghavarshini}\\
+%     \socialicon{\faGlobe} \href{https://meghavarshini.github.io}{meghavarshini.github.io}
+%     }
+% \end{center}
+% \vspace{-6mm}

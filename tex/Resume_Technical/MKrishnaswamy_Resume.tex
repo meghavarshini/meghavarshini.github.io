@@ -1,0 +1,432 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}
+% style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}
+% color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+\geometry{left=1.4cm, right=1.4cm, bottom=1cm,heightrounded}
+\topmargin = -2.3cm
+% \textheight = 11in
+\setlength{\hintscolumnwidth}{2cm}
+% if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}
+% for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{enumitem}
+\setlist[itemize]{
+  topsep=2pt,
+  itemsep=1pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+% uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{} 
+
+% character encoding  
+\usepackage[T1]{fontenc}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+% to set the default font; use '\sfdefault' for the default sans serif font, 
+% '\rmdefault' for the default roman one, or any tex font name
+\renewcommand{\familydefault}{\sfdefault}   
+
+
+
+%%%%%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{filecontents*}[overwrite]{general.bib}
+		  @inproceedings{pyarelal2025multicat,
+		    title = {{M}ulti{CAT}: Multimodal Communication Annotations for Teams},
+		    author = {Pyarelal, Adarsh  and
+		      Culnan, John M  and
+		      Qamar, Ayesha  and
+		      Krishnaswamy, Meghavarshini  and
+		      Wang, Yuwei  and
+		      Jeong, Cheonkam  and
+		      Chen, Chen  and
+		      Miah, Md Messal Monem  and
+		      Hormozi, Shahriar  and
+		      Tong, Jonathan  and
+		      Huang, Ruihong},
+		    editor = {Chiruzzo, Luis  and
+		      Ritter, Alan  and
+		      Wang, Lu},
+		    booktitle = {Findings of the Association for Computational Linguistics: {NAACL}},
+		    year = {2025},
+		    address = {Albuquerque, New Mexico},
+		    publisher = {Association for Computational Linguistics},
+		    url = {https://aclanthology.org/2025.findings-naacl.61/},
+		    doi = {10.18653/v1/2025.findings-naacl.61},
+		    pages = {1077--1111},
+		    ISBN = {979-8-89176-195-7},
+			}
+		  @inproceedings{soares2024probabilistic,
+		    title={Probabilistic Modeling of Interpersonal Coordination Processes},
+		    author={Soares, Paulo and Pyarelal, Adarsh and Krishnaswamy, Meghavarshini and Butler, Emily and Barnard, Kobus},
+		    booktitle={Forty-first International Conference on Machine Learning},
+		    year={2024},
+		    url = {https://proceedings.mlr.press/v235/soares24a.html},
+		  }
+		  @inproceedings{pyarelal2023tomcat,
+		    title={The {ToMCAT} Dataset},
+		    author={Pyarelal, Adarsh and Duong, Eric and Shibu, Caleb Jones and Soares, Paulo and Boyd, Savannah and Khosla, Payal and Pfeifer, Valeria and Zhang, Diheng and Andrews, Eric S and Champlin, Rick and others},
+		    booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+		    year={2023},
+		    url = {https://papers.nips.cc/paper_files/paper/2023/file/803d8d4b4a549d0d062fc704f8659ce3-Paper-Datasets_and_Benchmarks.pdf},
+		   }
+		  @inproceedings{krishnaswamy2023perception,
+		    title={Perception of {M}alayalam three-way stop contrast among {A}merican {E}nglish speakers},
+		    author={Krishnaswamy, Meghavarshini and Warner, Natasha},
+		    booktitle={Proceedings of the 20th International Congress of Phonetic Sciences},
+		    year={2023},
+		    pages={401--405},
+		    url ={https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/682.pdf},
+		   }
+		  @inproceedings{gp2023mismatch,
+		    title={Mismatched coarticulatory information hinders lexical access of coronal stops in {M}alayalam},
+		    author={GP, Seema and Krishnaswamy, Meghavarshini and Mishra, Ramesh and Dutta, Indranil},
+		    booktitle={Proceedings of the 20th International Congress of Phonetic Sciences},
+		    year={2023},
+		    pages={371--375},
+		    url ={https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/657.pdf},
+		   }
+		% @inproceedings{mitracoarticulation,
+		   %  title={Coarticulation and contrast in a vowel harmony system: coarticulatory propensity in {K}halkha {M}ongolian {VCV} sequences},
+		   %  author={Mitra, Auromita and Krishnaswamy, Meghavarshini and Dutta, Indranil},
+		   %  booktitle={Proceedings of the 20th International Congress of Phonetic Sciences},
+		   %  year={2023},
+		   %  pages={2246--2250},
+		   %  url ={https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2023/full_papers/1043.pdf},
+		   % }
+		  @inproceedings{culnan2021me,
+		    title={Me, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection},
+		    author={Culnan, John and Park, Seongjin and Krishnaswamy, Meghavarshini and Sharp, Rebecca},
+		    booktitle={Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},
+		    pages={250--256},
+		    year={2021},
+		    url = {https://aclanthology.org/2021.wassa-1.26.pdf},
+		   }
+		  @inproceedings{dutta2019articulatory,
+		    title= {Articulatory complexity and lexical contrast density in models of coronal coarticulation in {M}alayalam},
+		    author={Dutta, Indranil and Redmon, Charles and Krishnaswamy, Meghavarshini and Chandran, Sarath and Raj, Nayana},
+		    booktitle={Proceedings of the 19th International Congress of Phonetic Sciences},
+		    year={2019},
+		    url = {https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2041.pdf},
+		   }
+		  @inproceedings{krishnaswamy2018active,
+		    title={Active cavity expansion through lingual adjustments to place of constriction in voiced geminates},
+		    author={Krishnaswamy, Meghavarshini and Dutta, Indranil and Banerjee, Ushasi},
+		    booktitle={Proceedings of Meetings on Acoustics},
+		    volume={33},
+		    number={1},
+		    pages={060002},
+		    year={2018},
+		    organization={Acoustical Society of America},
+		    url ={https://asa.scitation.org/doi/pdf/10.1121/2.0001024},
+		    }
+		% % Posters
+		% @misc{krishnaswamy2020alveolar,
+		%     title={Alveolar stops exhibit greater coarticulatory resistance than retroflexes and dentals in {M}alayalam},
+		%     author={Krishnaswamy, Meghavarshini and Dutta, Indranil and Bhaumik, Maumita},
+		%     howpublished= {The Journal of the Acoustical Society of America},
+		%     volume={148},
+		%     number={4},
+		%     pages={2582--2582},
+		%     year={2020},
+		%     publisher={Acoustical Society of America},
+		%     url = {https://doi.org/10.1121/1.5147168},
+		%     }
+		% @phdthesis{krishnaswamy2025,
+		%     author       = {Meghavarshini, Krishnaswamy},
+		%     title        = {Vocal entrainment in multi-party conversations: an exploration of automated and experimental approaches},
+		%     school       = {The University of Arizona},
+		%     year         = {2025},
+		%     note         = {Dissertation in progress},
+		%     }
+		% @misc{krishnaswamy2025lstm,
+		%     title       = {Multi-party vocal entrainment as a timeseries problem},
+		%     author      = {Krishnaswamy, Meghavarshini and Soares, Paulo and Pyarelal, Adarsh},
+		%     howpublished= {Draft},
+		%     year        = {2025},
+		%     note        = {},
+		%     }
+	\end{filecontents*}
+% Bibliography Settings
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  maxbibnames=3,
+  minbibnames=3,
+  uniquename=false,
+  doi=false,
+  isbn=false,
+  url=false,
+  sorting=none
+]{biblatex}
+\addbibresource{general.bib}
+
+\setlength{\bibitemsep}{0.5pt}   % spacing between entries
+\renewcommand*{\bibfont}{\small}
+% \def\bibfont{\small}
+
+\DeclareFieldFormat
+  [article,inproceedings]
+  {title}
+  {%
+    \iffieldundef{doi}
+      {\iffieldundef{url}
+         {#1} % plain text, no italics
+         {\href{\thefield{url}}{#1}}} % URL link if available
+      {\href{https://doi.org/\thefield{doi}}{#1}} % DOI link if available
+  }
+
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+% Change bibliography heading string ("Publications") to redefine 
+%\renewcommand{\refname}{Articles}
+% bibliography with mutiple entries
+% \usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+       
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Personal Data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\name{Meghavarshini }{Krishnaswamy}
+% Following lines are optional, remove / comment the line if not wanted
+\title{Resume}
+\address{EDSI, University of Maryland, College Park}  
+        {Suite 0102, Benjamin Building}  
+        {College Park, Maryland - 20740, USA}
+% the "postcode city" and "country" arguments can be omitted or provided empty
+% \phone[mobile]{+1~(520)~331~3850}
+% the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{mkswamy@umd.edu} 
+\homepage{https://edsi.umd.edu/directory/megh-krishnaswamy}
+\homepage{meghavarshini.github.io}
+%\social[twitter]{jdoe}
+\social[github]{meghavarshini}
+\social[linkedin]{meghavarshini-krishnaswamy}
+%\extrainfo{DOB: 01/10/1992}
+%\photo[64pt][0.4pt]{Remo_Portrait.jpg}
+% '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{shortform, adapted for NYI}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Hyperref setup (End of Preamble)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\AfterPreamble{
+	\hypersetup{
+     linkcolor=blue,
+     citecolor=blue,
+     filecolor=blue,
+     urlcolor=blue,
+ 		} 
+  	}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Begin Resume %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%------------------------------------------------------------------------
+%            content
+%------------------------------------------------------------------------
+\begin{document}
+
+\makecvtitle
+% Change the number below to adjust top margin
+\vspace{-30pt}
+%------------------------------------------------------------------------
+%            education
+%------------------------------------------------------------------------	
+\section{Education}
+\vspace{-5pt}
+		\cventry{PhD}{Linguistics}{University of Arizona}{Tucson Arizona, USA}{2019--2025}{}
+		\cventry{MS}{\href{https://linguistics.arizona.edu/master-science-human-language-technology-hlt}{Human Language Technology}}{University of Arizona}{Tucson, Arizona, USA}{2019--2021}{}
+		\cventry{MA}{Linguistics}{The English and Foreign Languages University}{Hyderabad, India}{2013--2015}{}
+		\cventry{BA (Hons.)}{Lady Shri Ram College, University of Delhi}{New Delhi, India}{2010--2013}{}
+	\sloppy
+	\fussy
+\vspace{-20pt}	
+
+%------------------------------------------------------------------------
+%            Professional Research Experience
+%------------------------------------------------------------------------
+\section{Professional Research Experience}
+\vspace{-5pt}
+	\cventry{Postdoc}{Center for Educational Data Science and Innovation)}{University of Maryland, College Park}{Fall 2025--Present}{}{}
+		\cvlistitem{I provide language science expertise for building AI-powered tools for studying teaching quality and student outcomes.}
+		% \cvlistitem{I set up linguistic and phonetic analysis on spoken and written communications generated in K12 teaching environments.}
+		\cvlistitem{I work on building multimodal emotion detection models for the K-12 setting.}
+		\cvlistitem{I contribute to ongoing research on automatic speech recognition (ASR) of children's speech.}
+
+\vspace{-10pt}	
+%------------------------------------------------------------------------
+%            Academic Research Experience
+%------------------------------------------------------------------------
+\section{Academic Research Experience}
+\vspace{-5pt}
+	\cventry{GRA}{Data Science Institute (educator and consultancy)}{University of Arizona}{Fall 2023--Present}{}{}
+		\cvlistitem{Designed and lead technical workshops on natural language processing (NLP) and speech recognition [\href{https://github.com/ua-datalab/NLP-Speech}{\faGithub}], and AI tools for research.}
+		\cvlistitem{Contributed linguistic expertise and data processing pipelines for a quantum NLP language model for low-resource languages.}	
+		% \cvlistitem{Conducted technical consultations for data science research projects.}
+		\cventry{GRA}{\href{https://ml4ai.github.io/tomcat/}{DARPA ASIST-ToMCAT Project (NLP)}}{Summer 2020-Fall 2022}{}{}{}
+		\cvlistitem{Designed and enhanced existing unsupervised neural network models for detecting speech synchrony/entrainment [\href{https://github.com/meghavarshini/foss_capstone_entrainment_detector}{\faGithub}] using pytorch, and scikit-learn.}
+		\cvlistitem{Created data collection pipelines and conducted qualitative assessments for speech data.}	
+		\cvlistitem{Managed human subject data collection and annotation tasks.}
+		\cvlistitem{Contributed to publications \parencite{pyarelal2025multicat, soares2024probabilistic,pyarelal2023tomcat}, documentation, subject surveys, presentations, and project manuals.}
+		% \cvlistitem{Contributed to conference publications at NAACL, NeurIPS, ICML \parencite{pyarelal2025multicat, soares2024probabilistic,pyarelal2023tomcat}, and to software documentation and subject surveys.}
+
+	\cventry{GRA}{Douglass Phonetics Lab (applied linguistics)}{University of Arizona}{Spring 2020--Fall 2020}{}{}
+	 	\cvlistitem{Coordinated the lab's ongoing phonetics experiments, and speech and linguistic response data collection.}
+	 	\cvlistitem{Conducted statistical analysis and data exploration in R. Published \parencite{krishnaswamy2023perception}}
+		\cvlistitem{Initiated the migration of the lab's experiments to remote platforms (like Finding Five) in 2020 and set up the experiment builders.}	
+		\cvlistitem{Provided research support to undergraduate students.}
+		
+	\cventry{RA}{SPLANG Phonetics Lab (phonetics and psycholinguistics)}{The English and Foreign Languages University, Hyderabad}{}{}{}
+		\cvlistitem{Designed and conducted acoustic phonetics studies for languages such as Bengali, Mongolian, Malayalam and Hindi \parencite{gp2023mismatch, dutta2019articulatory}.}
+		\cvlistitem{Interfaced with language consultants to create relevant and accurate stimuli for speech perceptions studies.}
+		\cvlistitem{Provided trainings for experimental modalities such as ultrasound, eye-tracking, and speech perception and production.}
+		\cvlistitem{Managed administrative tasks such as lab equipment setup, purchase requests, and reimbursements.}
+
+\vspace{-10pt}
+
+%------------------------------------------------------------------------
+%            Education and Teaching Experience
+%------------------------------------------------------------------------
+% \section{Education and Teaching Experience}
+% 	\cventry{Fellow}{Teach for India}{Hyderabad, India}{2013-2015}{}{}
+% 		\cvlistitem{Trained and worked as a full-time teacher for Grade 5 (Maths and Environmental Sciences) and Grade 6 (English and Science).}
+% 		\cvlistitem{Conducted career orientations and soft-skills programs.}
+% 		% \cvlistitem{Underwent teacher-training for classroom management, curriculum development, pedagogy.}
+% 		% , and syllabus design.}
+% 		\cvlistitem{Raised approximately 82,000 INR to improve school's resources (\url{https://www.ketto.org/fundraiser/mindswithoutfear}).}
+% 	% \cventry{RA (intern)}{Karadi Path Education Company}{Chennai, India}{Summer, 2014}{}{}
+% 	% 	\cvlistitem{Worked on session plans, teacher-aids and English manuals for a Hindi teaching module.} 
+% 	% 	\cvlistitem{Processed and tested the teaching materials with instructors.} 
+% 	% 	\cvlistitem{ Edited teaching modules to make them accessible, engaging, and contemporary.}
+% 	\cventry{TA}{Department of Linguistics}{University of Arizona}{(Instructor on Record)}{}{}
+% 	\cvlistitem{\textbf{LING 314}. \emph{Phonetics}, Spring 2023}
+% 	\cvlistitem{\textbf{LING/PSY 432}. \emph{Psychology of Language (5-week online)} Summer 2022, 2023}
+
+%------------------------------------------------------------------------
+%            Academic Teaching Experience
+%------------------------------------------------------------------------
+% \section{Academic Teaching Experience}
+% 		\cventry{}{Graduate Teaching Assistant}{University of Arizona, Linguistics}{}{}{}
+% 		\cvlistitem{\textbf{LING 314}. \emph{Phonetics} Standalone Teaching Associate: Spring 2023}
+% 		\cvlistitem{\textbf{LING/PSY 432}. \emph{Psychology of Language} Standalone Teaching Associate, 5-week asynchronous online: Summer 2022, 2023}	
+% 		\cvlistitem{\textbf{LING 150A}. \emph{Languages in the World} Section instructor and Grader: Fall 2019}
+\vspace{-5pt}
+
+%------------------------------------------------------------------------
+%            Professional Research Experience
+%------------------------------------------------------------------------
+\newpage
+\section{Professional Research Experience}
+\vspace{-5pt}	
+		\cventry{Fall, 2024}{Artistic Expression of Original Research}{In-person}{Selected for a science communication workshop and mixed-media presentation series for communicating my doctoral research to the general public.}{}{}
+		\cventry{Spring, 2023}{Fellow, Data Science Institute}{University of Arizona Health Sciences}{Awarded this 14-week fellowship and training for data management, reproducibility, and accessibility in academic research.}{}{}
+		% \cventry{Spring, 2022}{Coqui ``Hack the Planet'' Hackathon}{Remote }{Trained and evaluated a Voice Command Detector for playing Chess in Tamil and Hindi languages using the Mozilla Common Voice dataset and Coqui STT system.}{}{}
+
+%------------------------------------------------------------------------
+%            Publications
+%------------------------------------------------------------------------	
+\vspace{-10pt}
+	\section{Publications}
+		\printbibliography[heading=none]
+		% \renewcommand{\bibsection}{}
+		% \bibliography{general}
+		% \bibliographystyle{unsrtnat}
+			{\nocite{pyarelal2025multicat}}{}{}{}{}
+			{\nocite{soares2024probabilistic}}{}{}{}{}
+			{\nocite{pyarelal2023tomcat}}{}{}{}
+			% {\nocite{krishnaswamy2023perception}}{}{}{}
+			{\nocite{gp2023mismatch}}{}{}{}
+			{\nocite{culnan2021me}}{}{}{}
+			% {\nocite{krishnaswamy2020alveolar}}{}{}{}			
+			{\nocite{krishnaswamy2018active}}{}{}{}
+
+
+\vspace{-10pt}
+%------------------------------------------------------------------------
+%            Skills
+%------------------------------------------------------------------------
+\section{Skills}
+\vspace{-10pt}
+
+	\subsection{Programming}
+		\cvitemwithcomment{Python}{pytorch, scikit-learn, matplotlib, pandas, numpy, jupyter, pyKaldi, spaCy, re}{}
+		\cvitemwithcomment{R}{ggplot2, lme4, dplyr, gss, grepl}{}
+		\cvitemwithcomment{CLI tools}{imagemagik, kaldi, ffmpeg, bash, grep, perl, ssh}{}
+	\subsection{Technology}
+		\cvitem{Acoustics}{Praat (and Praat scripting), Kaldi, OpenSMILE, Audacity, whisperAI, pyaudio}	
+		\cvitem{Editing}{MS Office, GSuits, Markdown, knitR, and \LaTeX}
+		% \cvitem{Ed Tools}{Working with services such as D2L, Panopto, Google Classroom and Github Classroom}
+
+% ------------------------------------------------------------------------
+           % Languages
+% ------------------------------------------------------------------------
+\vspace{-10pt}	
+\section{Languages}
+\vspace{-5pt}
+
+	\cvlistdoubleitem{English (Indian), Proficient, Native}{Hindi, Proficient, Native}
+	\cvlistdoubleitem{Tamil, Proficient, Native}{Sanskrit, Basic, School diploma}
+	\cvlistdoubleitem{German, Basic}{}
+
+
+
+\end{document}
+%------------------------------------------------------------------------
+%            Talks Given
+%------------------------------------------------------------------------
+	% \subsection{Talks Given}
+	% \cventry{2021}{\hyperlink{https://www.youtube.com/watch?v=VNXivwrsN0A}{Neural Machine Translation Approaches for Vocabulary Reconstruction Tasks}}{NUI Galway, Ireland}{Cardamon Seminar Series}{}{}
+	% \cventry{2019}{Using Genetic Evidence to Make Linguistic Arguments: pitfalls and opportunities}{UPenn, Philadelphia}{PLC 43}{}{}%
+	% \cventry{2019}{Viel Geliebt: German participal adjectives and degree words}{University of Arizona, Tucson}{Arizona Linguistics Circle 13}{}{}%
+	
+	% \cventry{2018}{On the Extended Projection of German Adjectives}{Bled-Slovenia}{A0: The Adjective as a Lexical Category}{}{}%
+	
+%	\subsection{Service}
+	%\cvitem{2019-}{{\bfseries Coyote Papers, Editor in Chief}. I took over Coyote Papers in Spring 2019, when it had been functionally dead for six years. \url{https://coyotepapers.sbs.arizona.edu/}}
+	
+%------------------------------------------------------------------------
+%            Research Interests
+%------------------------------------------------------------------------
+	% \section{Research Interests}
+	% \cvitem{Computational Linguistics}{I am interested in situations where neural approaches to NLP struggle because of limited data, either for lack of data in general, or lack of resources in procuring data. Adjacent to this, I have an interest in neural machine translation and ways to make it accessible to under-served communities. My other interests in this area are in Information Extraction Systems and ways to capture complex dialog events.}
+	% \cvitem{Syntax of Adjectives}{I am interested in the syntax of adjectives cross-linguistically, especially the syntax of comparatives and superlatives.}
+	% \cvitem{Evolution of Language}{I am interested in topics pertaining the evolution of language capability in humans. Currently, I am working on ways to demonstrate the potential speed of externalization of a language faculty under the assumption that such a faculty has a genetic basis.}
+%------------------------------------------------------------------------
+%            Non-traditional CV Items and Miscellaneous
+%------------------------------------------------------------------------
+%	\section{Non-traditional CV Items and Miscellaneous}
+%	\cventry{2010--2011}{International Volunteer}{Pam\'{a}tn\'{i}k Terez\'{i}n/Terez\'{i}n Memorial}{Terez\'{i}n/Czech Republic}{}{\url{https://jugendbegegnung.de/terezin/freiwilligenteam/}%As a volunteer for the National Holocaust Memorial of the Czech Republic, Terez\'{i}n, %I was employed by the memorial and paid for by the Austrian government. 
+		%my job was to organize stays for German school classes and to mentor them during their stay in  Terez\'{i}n. We were in charge of organizing accomodation, developing pedagocical programs, guiding the classes through the former ghetto and mentoring the students. %We worked as an independant department within the memorial.
+%	{} }
+%	\cventry{2012--2015}{Volunteer}{Verein f\"{u}r Gedenkkultur in Graz}{Graz/Austria}{}{Organization dedicated to keeping the memories of the victims of the Nazi-regime alive. %In my time as a volunteer I did guided tours  through Graz with local school classes. The tours were designed to show were select victims of Nazi persecution lived and to allow the children to connect with the lives of these individuals.
+%	}
+%\cventry{2015--2018}{Part-Time Employee}{IT-Solutions and Webspider GmbH}{Salzburg, Austria}{}{\url{http://www.itsolutions.at/}%Mostly doing translations and other smaller duties around the office, if there.
+%}
+%\cventry{2018 (Spring)}{Visiting English Teacher}{Dechen Choekhor Mahavihara Monastery}{Kullu, India}{}{\url{https://drukpachoegon.org/centers-locations-1}
+%}
+%\cvlistitem{Visiting English teacher at Dechen Choekhor Mahavihara monastery in Bhuntar, India, Spring 2018}
+
+%------------------------------------------------------------------------
+%            Relevant Coursework
+%------------------------------------------------------------------------
+%	\section{Relevant Coursework}	
+%	\cvlistdoubleitem{\textbf{LING 501: Formal Foundations of Linguistics;} theoretical background of the grammars of the Chomsky Hierarchy, HMMs, and neural nets }{\textbf{LING 508: Computational Techniques for Linguists;} corpus work, NLTK, regular expressions}
+%		\cvlistdoubleitem{\textbf{LING 578: Speech Technology;} jupyter notebook, acoustics, speech synthesis, text-to-speech, HMMs, neural nets }{\textbf{LING 538: Computational Linguistics;} perl, prolog, language models}
+%		\cvlistdoubleitem{\textbf{LING 539: Statistical Natural Language Processing;} speech taggers, dependency parsers, text classification, word vectors and embeddings}{\textbf{LING 581: Advanced Computational Linguistics;} treebanks, PoS taggers, parsers}
+
+%% end of file `template.tex'.
