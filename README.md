@@ -8,7 +8,7 @@ Includes the following:
 - Photo and relevant details
 
 ## ToDos and future plans
-- Include details for workshops conducted
+- Workflow for updating website with LeTeX assets 
 - Add links to repos relevant to research
 - Outreach and academic service
 - Include page for skills and certifications
