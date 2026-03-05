@@ -28,4 +28,4 @@ redirect_from:
 
 [Download Complete CV](https://github.com/meghavarshini/meghavarshini.github.io/blob/master/files/MKrishnaswamy_Academic_CV.pdf)
 
-[Download Resumé](https://github.com/meghavarshini/meghavarshini.github.io/blob/master/files/mkrishnaswamy_Resume.pdf)
+[Download Resumé](https://github.com/meghavarshini/meghavarshini.github.io/blob/master/files/MKrishnaswamy_Resume.pdf)
