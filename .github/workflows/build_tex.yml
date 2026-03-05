@@ -1,0 +1,49 @@
+name: Build LaTeX PDFs
+
+on:
+  push:
+    paths:
+      - 'tex/**/*.tex'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            tex/*CV*/*.tex
+            tex/*Resume*/*.tex
+          work_in_root_file_dir: true
+
+      - name: Collect PDFs
+        run: |
+          mkdir -p files
+          find tex -name "*.pdf" -exec cp {} files/ \;
+
+      - name: Commit PDFs
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add files/*.pdf
+          git diff --staged --quiet || git commit -m "Auto-build PDFs"
+          git push
+
+# If your documents require XeLaTeX (fonts, moderncv, etc.), add:
+#
+#        compiler: xelatex
+#
+# under the "with:" section above.
+#
+# Example:
+#
+#        with:
+#          compiler: xelatex
+#          root_file: |
+#            tex/*academic_cv/*.tex
+#            tex/resume/resume.tex
+#          work_in_root_file_dir: true
