@@ -273,8 +273,8 @@ I am dedicated to mentoring the next generation of scientists by equipping them 
     {Postdoctoral Associate (Speech Science \& Linguistics)}{Aug 2025 - Present}
     \resumeItemListStart
         \item Develop multimodal emotion detection models tailored for K-12 classroom dynamics and child speech.
-        \item Evaluate and benchmark specialized ASR and speaker diarization models for domain-specific classroom discourse.
-        \item Coordinate student RA research.
+        \item Evaluate and benchmark specialized Automatic Speech Recognition(ASR) and speaker diarization models for domain-specific classroom discourse.
+        \item Lead a team of two graduate research assistants.
         \item Conduct phonetic and computational linguistic analyses on spoken and written K-12 classroom interactions and instructional coaching conversations.
         \item Design data pipelines for acoustic feature extraction, automatic speech recognition (ASR), and multimodal LLM annotation.   
         \item Deploy and maintain a custom Label Studio annotation platform to accelerate dataset enrichment and human annotation workflows.
@@ -302,7 +302,7 @@ I am dedicated to mentoring the next generation of scientists by equipping them 
   \resumeSubHeadingListStart
 
     \resumeSubheading
-    {K-12 Infrastructure Program}{}
+    {K-12 AI Infrastructure Program [\href{https://k12-ai-infrastructure.org/}{\faIcon{globe}}]}{}
     {Co-Principal Investigator}{Aug 2026 - August 2027}
     \resumeItemListStart
         \item Project title ``Enhancing Two Multimodal Classroom Datasets to Advance R\&D on Formative Assessment''.
@@ -353,6 +353,57 @@ I am dedicated to mentoring the next generation of scientists by equipping them 
 
 \resumeSubHeadingListEnd
 \vspace{-8mm}
+
+
+\section{\textbf{Publications}\label{publications}
+\hfill 
+\textcolor{darkblue}{\scriptsize
+                      C=Peer-reviewed Conference Proceedings, 
+                      P=Poster, 
+                      W=Work in Progress, 
+                      D=Dissertation
+                      }
+        }
+\newrefcontext[labelprefix=C]
+\vspace{0.2mm}
+\nocite{*} % Ensures uncited items are included
+\printbibliography[
+    type=inproceedings, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=C % Include items in ref.bib with keyword={J}
+    ]
+\vspace{-4mm}
+
+\newrefcontext[labelprefix=D]
+\printbibliography[
+    type=thesis, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=D % Include items in ref.bib with keyword={J}
+    ]
+\vspace{-4mm}
+
+\newrefcontext[labelprefix=P]
+\printbibliography[
+    heading=none,
+    type=misc, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=P % Include items in ref.bib with keyword={J}
+    ]
+% \vspace{-4mm}
+
+% \newrefcontext[labelprefix=W]
+% \printbibliography[
+%     heading=none,
+%     type=misc, % Only include @article ref.bib items
+%     heading=none, % Do not include header. Gives us more control.
+%     resetnumbers=true, % Start item counter from zero
+%     keyword=W % Include items in ref.bib with keyword={J}
+%     ]
+
+\vspace{-7mm}
 
 \section{\textbf{Teaching Experience}}\label{teaching-experience}
 \vspace{-0.4mm}
@@ -405,81 +456,6 @@ I am dedicated to mentoring the next generation of scientists by equipping them 
 
 \resumeSubHeadingListEnd
 \vspace{-8mm}
-
-
-\section{\textbf{Publications}\label{publications}
-\hfill 
-\textcolor{darkblue}{\scriptsize
-                      C=Proceedings, 
-                      P=Poster, 
-                      W=Publication in Progress, 
-                      D=Dissertation,
-                      }
-        }
-\newrefcontext[labelprefix=C]
-\vspace{0.2mm}
-\nocite{*} % Ensures uncited items are included
-\printbibliography[
-    type=inproceedings, % Only include @article ref.bib items
-    heading=none, % Do not include header. Gives us more control.
-    resetnumbers=true, % Start item counter from zero
-    keyword=C % Include items in ref.bib with keyword={J}
-    ]
-\vspace{-4mm}
-
-\newrefcontext[labelprefix=D]
-\printbibliography[
-    type=thesis, % Only include @article ref.bib items
-    heading=none, % Do not include header. Gives us more control.
-    resetnumbers=true, % Start item counter from zero
-    keyword=D % Include items in ref.bib with keyword={J}
-    ]
-\vspace{-4mm}
-
-\newrefcontext[labelprefix=P]
-\printbibliography[
-    heading=none,
-    type=misc, % Only include @article ref.bib items
-    heading=none, % Do not include header. Gives us more control.
-    resetnumbers=true, % Start item counter from zero
-    keyword=P % Include items in ref.bib with keyword={J}
-    ]
-% \vspace{-4mm}
-
-% \newrefcontext[labelprefix=W]
-% \printbibliography[
-%     heading=none,
-%     type=misc, % Only include @article ref.bib items
-%     heading=none, % Do not include header. Gives us more control.
-%     resetnumbers=true, % Start item counter from zero
-%     keyword=W % Include items in ref.bib with keyword={J}
-%     ]
-
-\vspace{-7mm}
-
-\section{\textbf{Skills}}\label{skills}
-\vspace{-0.4mm}
-    \resumeHeadingSkillStart
-        \resumeSubItem{Programming and Scripting:}
-        {Python, R, Praat scripting, bash scripting, grep, ssh, slurm}
-        \resumeSubItem{Web Technologies:}
-        {D2L, Google Docs, Panopto, Qualtrics}
-        \resumeSubItem{Data and Code Management Systems:}
-        {Pandas, Bee Keeper, Excel, git }
-        \resumeSubItem{NLP, Data Science \& Machine Learning:}
-        {Pytorch, ScikitLearn, PyKaldi, SpaCy, NLTK, Matplotlib, Pandas, Numpy, Notebooks, WhisperAI, SpeechBrain, Ollama, Jupyter}
-        \resumeSubItem{NLP and Phonetics:}
-        {SpaCy, NLTK, Beautiful Soup, perl, Ollama, WhisperAI, SpeechBrain, Praat, Parseltongue, Kaldi, OpenSMILE, ffmpeg}
-        \resumeSubItem{Mathematical \& Statistical Tools:}
-        {numpy, scipy, ggplot, lme4, dplyr, gss }
-        \resumeSubItem{Other Tools \& Technologies:}
-        {imagemagik, HPC, Gradio}
-        \resumeSubItem{Documentation and editing:}
-        { \LaTeX, MS Word, RMarkdown \& Knitr, MKdocs, Github Pages, vim, Jupyter Notebooks}
-        %   \resumeSubItem{DevOps \& Version Control:}
-        %     {Tool 1, Tool 2, Tool 3, Tool 4, Tool 5}
-    \resumeHeadingSkillEnd
-\vspace{-3mm}
 
 
 \section{\textbf{Fellowships and Awards}}\label{fellowships}
@@ -549,7 +525,7 @@ software documentation.
 \vspace{-8mm}
 
 
-\section{\textbf{Leadership Experience}}
+\section{\textbf{Leadership and Experience}}
 \vspace{-0.4mm}
 \resumeSubHeadingListStart
 
@@ -587,13 +563,6 @@ software documentation.
       \item Mentored incoming graduate students.
       \item Volunteered in presentations and university showcases.
     \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-\vspace{-6mm}
-
-\section{\textbf{Service}}
-\vspace{-0.4mm}
-\resumeSubHeadingListStart
 
     \resumeProject
           {Instructor, Software Carpentry Workshop}
@@ -636,8 +605,10 @@ software documentation.
       {Peer J Computer Science}
       {Mar 2023}
       {{}[\href{https://peerj.com/computer-science/}{\textcolor{darkblue}{\faIcon{globe}}}]}
+
 \resumeSubHeadingListEnd
 \vspace{-6mm}
+
 
 \section{\textbf{Professional Memberships and Affiliations}}
 \vspace{-0.4mm}
@@ -654,6 +625,30 @@ software documentation.
 \resumeSubHeadingListEnd
 \vspace{-6mm}
 
+
+\section{\textbf{Skills}}\label{skills}
+\vspace{-0.4mm}
+    \resumeHeadingSkillStart
+        \resumeSubItem{Programming and Scripting:}
+        {Python, R, Praat scripting, bash scripting, grep, ssh, slurm}
+        \resumeSubItem{Web Technologies:}
+        {D2L, Google Docs, Panopto, Qualtrics}
+        \resumeSubItem{Data and Code Management Systems:}
+        {Pandas, Bee Keeper, Excel, git }
+        \resumeSubItem{NLP, Data Science \& Machine Learning:}
+        {Pytorch, ScikitLearn, PyKaldi, SpaCy, NLTK, Matplotlib, Pandas, Numpy, Notebooks, WhisperAI, SpeechBrain, Ollama, Jupyter}
+        \resumeSubItem{NLP and Phonetics:}
+        {SpaCy, NLTK, Beautiful Soup, perl, Ollama, WhisperAI, SpeechBrain, Praat, Parseltongue, Kaldi, OpenSMILE, ffmpeg}
+        \resumeSubItem{Mathematical \& Statistical Tools:}
+        {numpy, scipy, ggplot, lme4, dplyr, gss }
+        \resumeSubItem{Other Tools \& Technologies:}
+        {imagemagik, HPC, Gradio}
+        \resumeSubItem{Documentation and editing:}
+        { \LaTeX, MS Word, RMarkdown \& Knitr, MKdocs, Github Pages, vim, Jupyter Notebooks}
+        %   \resumeSubItem{DevOps \& Version Control:}
+        %     {Tool 1, Tool 2, Tool 3, Tool 4, Tool 5}
+    \resumeHeadingSkillEnd
+\vspace{-3mm}
 
 % \section{\textbf{Certifications}}
 % \vspace{-0.2mm}
